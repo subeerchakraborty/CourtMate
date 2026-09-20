@@ -33,11 +33,11 @@ function HowItWorks() {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
           {steps.map((step) => (
             <div
               key={step.number}
-              className="bg-white rounded-2xl p-8 shadow-sm"
+              className="relative rounded-2xl border border-gray-100 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <span className="text-orange-500 font-bold text-lg">
                 {step.number}

@@ -24,14 +24,15 @@ function Testimonials() {
   ];
 
   return (
-    <section className="py-20 px-6 bg-gray-50">
+    <section className="bg-[#120b0a] px-6 py-24 text-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900">
+          <p className="font-bold uppercase tracking-[0.25em] text-orange-400">Loved by players</p>
+          <h2 className="mt-3 text-4xl font-bold text-white">
             What Players Say
           </h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-orange-100/60">
             See what our basketball community has to say.
           </p>
         </div>
@@ -40,22 +41,22 @@ function Testimonials() {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-white rounded-2xl p-8 shadow-sm"
+              className="rounded-2xl border border-white/10 bg-white/5 p-8 shadow-sm"
             >
               <div className="text-orange-500 text-2xl">
                 ★★★★★
               </div>
 
-              <p className="mt-5 text-gray-600 leading-relaxed">
+              <p className="mt-5 leading-relaxed text-orange-50/75">
                 "{testimonial.message}"
               </p>
 
               <div className="mt-6">
-                <h3 className="font-bold text-gray-900">
+                <h3 className="font-bold text-white">
                   {testimonial.name}
                 </h3>
 
-                <p className="text-sm text-gray-500">
+                <p className="text-sm text-orange-100/50">
                   {testimonial.role}
                 </p>
               </div>

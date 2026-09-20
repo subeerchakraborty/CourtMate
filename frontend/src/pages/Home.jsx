@@ -3,6 +3,8 @@ import HowItWorks from "../components/HowItWorks";
 import PopularGames from "../components/PopularGames";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import WhyCourtMate from "../components/WhyCourtMate";
+import CallToAction from "../components/CallToAction";
 
 function Home() {
   return (
@@ -10,7 +12,9 @@ function Home() {
       <Hero />
       <HowItWorks />
       <PopularGames />
+      <WhyCourtMate />
       <Testimonials />
+      <CallToAction />
       <Footer />
     </>
   );

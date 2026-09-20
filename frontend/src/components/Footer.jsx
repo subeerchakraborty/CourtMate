@@ -1,15 +1,15 @@
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white px-6 py-12">
+    <footer className="bg-[#090707] px-6 py-14 text-white">
       <div className="max-w-6xl mx-auto">
-        <div className="flex justify-between items-start">
+        <div className="flex flex-col justify-between gap-10 md:flex-row md:items-start">
           
           <div>
             <h2 className="text-2xl font-bold">
               🏀 CourtMate
             </h2>
 
-            <p className="mt-3 text-gray-400 max-w-sm">
+            <p className="mt-3 max-w-sm text-gray-400">
               Find basketball games, meet new players, and get on the court.
             </p>
           </div>
@@ -20,9 +20,9 @@ function Footer() {
             </h3>
 
             <div className="mt-4 flex flex-col gap-3 text-gray-400">
-              <a href="/">Home</a>
-              <a href="/">Find Games</a>
-              <a href="/">Host a Game</a>
+              <a href="/" className="hover:text-orange-400">Home</a>
+              <a href="/games" className="hover:text-orange-400">Find Games</a>
+              <a href="/host" className="hover:text-orange-400">Host a Game</a>
             </div>
           </div>
 
